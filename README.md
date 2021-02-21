@@ -1,8 +1,8 @@
 ### Date created
-20.02.2021
+20.02.2021 on Sunday
 
 ### Project Title
-bikeshare
+Bikeshare
 
 ### Description
 This is my firs project in python!
