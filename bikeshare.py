@@ -137,6 +137,14 @@ def user_stats(df):
     # TO DO: Display counts of user types
     print(f"Counts of user types: {df.groupby(['User Type']).size()}")
 
+    # TO DO: Display counts of gender
+    if 'Gender' not in df:
+        print("Column 'Gender' doesn't exist")
+        print("\nThis took %s seconds." % (time.time() - start_time))
+        print('-' * 40)
+        pass
+    else:
+        print(f"Counts of user types: {df.groupby(['Gender']).size()}")
 
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Birth Year' not in df:
